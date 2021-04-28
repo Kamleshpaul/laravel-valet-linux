@@ -1,4 +1,4 @@
-**Setp 1** : `sudo chown -R $USER ~/.composer/`
+**Setp 1** : `sudo chown -R $USER ~/.config/composer/`
 
 **Setp 2** : `composer global require cpriego/valet-linux`
 
@@ -6,7 +6,7 @@
 
 put below code inside and save
 ```sh
-PATH="$HOME/.composer/vendor/bin:$PATH"
+PATH="$HOME/.config/composer/vendor/bin:$PATH"
 ```
 
 **Step 4** : `source ~/.profile`
