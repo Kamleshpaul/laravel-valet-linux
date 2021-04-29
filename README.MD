@@ -12,3 +12,5 @@ PATH="$HOME/.config/composer/vendor/bin:$PATH"
 **Step 4** : `source ~/.profile`
 
 **Step 5** : `sudo apt-get install network-manager libnss3-tools jq xsel`
+
+**Setup 6** : `valet install`
